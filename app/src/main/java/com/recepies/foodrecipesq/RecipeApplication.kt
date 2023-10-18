@@ -12,7 +12,6 @@ import javax.inject.Inject
 @HiltAndroidApp
 class RecipeApplication:Application() {
 
-
     @Inject
     lateinit var retrofitClient: RetrofitClient
 

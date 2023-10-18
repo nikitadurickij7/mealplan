@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.recepies.foodrecipesq"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.10.1] /Users/tomikartemik/.gradle/caches/transforms-3/4edadf7a26829afcc08e0f9fef16fe61/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+14        android:name="com.recepies.foodrecipesq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.10.1] /Users/tomikartemik/.gradle/caches/transforms-3/4edadf7a26829afcc08e0f9fef16fe61/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.10.1] /Users/tomikartemik/.gradle/caches/transforms-3/4edadf7a26829afcc08e0f9fef16fe61/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.recepies.foodrecipesq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.10.1] /Users/tomikartemik/.gradle/caches/transforms-3/4edadf7a26829afcc08e0f9fef16fe61/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.10.1] /Users/tomikartemik/.gradle/caches/transforms-3/4edadf7a26829afcc08e0f9fef16fe61/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:7:5-32:19
+20        android:name="com.recepies.foodrecipesq.RecipeApplication"
+20-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:8:9-42
+21        android:allowBackup="true"
+21-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.10.1] /Users/tomikartemik/.gradle/caches/transforms-3/4edadf7a26829afcc08e0f9fef16fe61/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:13:9-41
+29        android:supportsRtl="true"
+29-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.FoodRecipes" >
+31-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:15:9-49
+32        <activity
+32-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:17:9-20:65
+33            android:name="com.recepies.foodrecipesq.presentation.activities.RecipeDetailActivity"
+33-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:18:13-98
+34            android:exported="false"
+34-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:19:13-37
+35            android:theme="@style/Theme.AppCompat.NoActionBar" />
+35-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:20:13-63
+36        <activity
+36-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:21:9-31:20
+37            android:name="com.recepies.foodrecipesq.presentation.activities.MainActivity"
+37-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:22:13-65
+38            android:exported="true"
+38-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:23:13-36
+39            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" >
+39-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:24:13-74
+40            <intent-filter>
+40-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:26:13-30:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:27:17-69
+41-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:27:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:29:17-77
+43-->/Users/tomikartemik/Downloads/Recipe-App-master/app/src/main/AndroidManifest.xml:29:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <service
+47-->[androidx.room:room-runtime:2.5.1] /Users/tomikartemik/.gradle/caches/transforms-3/0a73064270730b4c3e7a6892568faf18/transformed/room-runtime-2.5.1/AndroidManifest.xml:24:9-28:63
+48            android:name="androidx.room.MultiInstanceInvalidationService"
+48-->[androidx.room:room-runtime:2.5.1] /Users/tomikartemik/.gradle/caches/transforms-3/0a73064270730b4c3e7a6892568faf18/transformed/room-runtime-2.5.1/AndroidManifest.xml:25:13-74
+49            android:directBootAware="true"
+49-->[androidx.room:room-runtime:2.5.1] /Users/tomikartemik/.gradle/caches/transforms-3/0a73064270730b4c3e7a6892568faf18/transformed/room-runtime-2.5.1/AndroidManifest.xml:26:13-43
+50            android:exported="false" />
+50-->[androidx.room:room-runtime:2.5.1] /Users/tomikartemik/.gradle/caches/transforms-3/0a73064270730b4c3e7a6892568faf18/transformed/room-runtime-2.5.1/AndroidManifest.xml:27:13-37
+51
+52        <uses-library
+52-->[androidx.window:window:1.0.0] /Users/tomikartemik/.gradle/caches/transforms-3/d537548cb474ca1614d98a53b516d2fa/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+53            android:name="androidx.window.extensions"
+53-->[androidx.window:window:1.0.0] /Users/tomikartemik/.gradle/caches/transforms-3/d537548cb474ca1614d98a53b516d2fa/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0] /Users/tomikartemik/.gradle/caches/transforms-3/d537548cb474ca1614d98a53b516d2fa/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+55        <uses-library
+55-->[androidx.window:window:1.0.0] /Users/tomikartemik/.gradle/caches/transforms-3/d537548cb474ca1614d98a53b516d2fa/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+56            android:name="androidx.window.sidecar"
+56-->[androidx.window:window:1.0.0] /Users/tomikartemik/.gradle/caches/transforms-3/d537548cb474ca1614d98a53b516d2fa/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0] /Users/tomikartemik/.gradle/caches/transforms-3/d537548cb474ca1614d98a53b516d2fa/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/tomikartemik/.gradle/caches/transforms-3/4ba3ae22b46ceecbc4fb16dbc9d9e621/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/tomikartemik/.gradle/caches/transforms-3/4ba3ae22b46ceecbc4fb16dbc9d9e621/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+61            android:authorities="com.recepies.foodrecipesq.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/tomikartemik/.gradle/caches/transforms-3/4ba3ae22b46ceecbc4fb16dbc9d9e621/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/tomikartemik/.gradle/caches/transforms-3/4ba3ae22b46ceecbc4fb16dbc9d9e621/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/tomikartemik/.gradle/caches/transforms-3/4ba3ae22b46ceecbc4fb16dbc9d9e621/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/tomikartemik/.gradle/caches/transforms-3/4ba3ae22b46ceecbc4fb16dbc9d9e621/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/tomikartemik/.gradle/caches/transforms-3/4ba3ae22b46ceecbc4fb16dbc9d9e621/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tomikartemik/.gradle/caches/transforms-3/94bd5da4661dd3ae988cb8656e3ffddf/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tomikartemik/.gradle/caches/transforms-3/94bd5da4661dd3ae988cb8656e3ffddf/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tomikartemik/.gradle/caches/transforms-3/94bd5da4661dd3ae988cb8656e3ffddf/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+69        </provider>
+70    </application>
+71
+72</manifest>
