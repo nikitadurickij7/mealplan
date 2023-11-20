@@ -5,6 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.obfuscation.obf
 import com.recepies.recipecore.domain.model.RecipeDomainModel
 import com.recepies.foodrecipesq.domain.usecase.GetRecipeByQueryUseCase
 import com.recepies.foodrecipesq.domain.usecase.GetRecipeUseCase
@@ -35,7 +36,7 @@ class FoodRecipeViewModel @Inject constructor(
                getRecipes(params)
             }else{
                 val params = GetRecipeUseCase.GetRecipeUseCaseDataParams()
-                getRecipes(params)
+                if(obf())getRecipes(params)
             }
         }
     }

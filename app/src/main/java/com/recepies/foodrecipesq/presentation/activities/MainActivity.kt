@@ -10,9 +10,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.recepies.foodrecipesq.R
 import com.recepies.foodrecipesq.databinding.ActivityMainBinding
-import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private var binding:ActivityMainBinding? = null
     private var navController:NavController? = null
@@ -21,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
         setNavigationView()
+//        startActivity(Intent(this, SplashActivity::class.java))
     }
 
     private fun setNavigationView() {

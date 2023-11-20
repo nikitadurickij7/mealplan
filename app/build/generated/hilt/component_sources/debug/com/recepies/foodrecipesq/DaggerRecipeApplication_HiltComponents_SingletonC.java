@@ -40,7 +40,6 @@ import com.recepies.foodrecipesq.domain.usecase.GetRecipeUseCase;
 import com.recepies.foodrecipesq.domain.usecase.GetUserPrefMealAndDietTypeUseCase;
 import com.recepies.foodrecipesq.domain.usecase.RemoveFavoriteRecipeUseCase;
 import com.recepies.foodrecipesq.domain.usecase.SaveUserPrefUseCase;
-import com.recepies.foodrecipesq.presentation.activities.MainActivity;
 import com.recepies.foodrecipesq.presentation.activities.RecipeDetailActivity;
 import com.recepies.foodrecipesq.presentation.fragments.FavoriteRecipeFragment;
 import com.recepies.foodrecipesq.presentation.fragments.FoodRecipeFragment;
@@ -453,10 +452,6 @@ public final class DaggerRecipeApplication_HiltComponents_SingletonC {
       this.activityRetainedCImpl = activityRetainedCImpl;
 
 
-    }
-
-    @Override
-    public void injectMainActivity(MainActivity arg0) {
     }
 
     @Override

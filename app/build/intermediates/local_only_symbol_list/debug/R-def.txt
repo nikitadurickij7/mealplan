@@ -42,6 +42,7 @@ drawable ic_time_icon
 drawable ic_veg
 drawable loader_view_bg
 drawable plate
+drawable splash_back
 drawable top_left_right_18dp_rounded_corner
 id action_foodRecipeFragment_to_recipeFilterBottomSheetFrag
 id apply_tv
@@ -101,8 +102,10 @@ id veg_view
 id vertical
 id vertical_barrier
 id viewPager
+id webView
 layout activity_main
 layout activity_recipe_detail
+layout activity_splash
 layout fragment_favorite_recipe
 layout fragment_food_recipe
 layout fragment_joke_recipe

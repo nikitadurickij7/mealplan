@@ -20,7 +20,6 @@ import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_compo
 import hilt_aggregated_deps._com_recepies_dbmodule_di_DbModule;
 import hilt_aggregated_deps._com_recepies_foodrecipesq_RecipeApplication_GeneratedInjector;
 import hilt_aggregated_deps._com_recepies_foodrecipesq_di_usecase_UseCaseModule;
-import hilt_aggregated_deps._com_recepies_foodrecipesq_presentation_activities_MainActivity_GeneratedInjector;
 import hilt_aggregated_deps._com_recepies_foodrecipesq_presentation_activities_RecipeDetailActivity_GeneratedInjector;
 import hilt_aggregated_deps._com_recepies_foodrecipesq_presentation_fragments_FavoriteRecipeFragment_GeneratedInjector;
 import hilt_aggregated_deps._com_recepies_foodrecipesq_presentation_fragments_FoodRecipeFragment_GeneratedInjector;
@@ -80,7 +79,6 @@ import hilt_aggregated_deps._dagger_hilt_android_internal_modules_HiltWrapper_Ac
         _com_recepies_dbmodule_di_DbModule.class,
         _com_recepies_foodrecipesq_RecipeApplication_GeneratedInjector.class,
         _com_recepies_foodrecipesq_di_usecase_UseCaseModule.class,
-        _com_recepies_foodrecipesq_presentation_activities_MainActivity_GeneratedInjector.class,
         _com_recepies_foodrecipesq_presentation_activities_RecipeDetailActivity_GeneratedInjector.class,
         _com_recepies_foodrecipesq_presentation_fragments_FavoriteRecipeFragment_GeneratedInjector.class,
         _com_recepies_foodrecipesq_presentation_fragments_FoodRecipeFragment_GeneratedInjector.class,

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.recepies.foodrecipesq.app-mergeDebugResources-54:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.recepies.foodrecipesq.app-mergeDebugResources-64:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/Users/tomikartemik/.gradle/caches/transforms-3/470ac3c9c60c2e555d8d738b2c5016c3/transformed/material-1.9.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/Users/tomikartemik/.gradle/caches/transforms-3/05e0befc031c741a67fc02e1ae47eb89/transformed/material-1.10.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

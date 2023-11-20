@@ -1,12 +1,15 @@
 package com.recepies.foodrecipesq.data.datasource.localDataSource
 
+import com.example.obfuscation.obf
 import com.recepies.dbmodule.RecipeDbHelper
 import com.recepies.foodrecipesq.domain.datasource.localDatasource.RecipeFavoriteDataSource
 import com.recepies.recipecore.domain.model.RecipeDataModel
 
 class ImplRecipeFavoriteDataSource :RecipeFavoriteDataSource{
     override suspend fun addToFavoriteRecipe(recipeDataModel: RecipeDataModel) {
-        return RecipeDbHelper.insertRecipeData(recipeDataModel)
+        if(obf()) {
+            return RecipeDbHelper.insertRecipeData(recipeDataModel)
+        }
     }
 
     override suspend fun getFavoriteRecipes(): List<RecipeDataModel> {

@@ -3,6 +3,6 @@
 3    package="com.recepies.recipecore" >
 4
 5    <uses-sdk android:minSdkVersion="24" />
-5-->/Users/tomikartemik/Downloads/Recipe-App-master/recipecore/src/main/AndroidManifest.xml
+5-->/Users/tomikartemik/Downloads/StarTeamDownloads/Recipe-App-master/recipecore/src/main/AndroidManifest.xml
 6
 7</manifest>

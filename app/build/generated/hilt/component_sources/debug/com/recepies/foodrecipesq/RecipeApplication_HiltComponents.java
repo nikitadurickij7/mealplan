@@ -2,7 +2,6 @@ package com.recepies.foodrecipesq;
 
 import com.recepies.dbmodule.di.DbModule;
 import com.recepies.foodrecipesq.di.usecase.UseCaseModule;
-import com.recepies.foodrecipesq.presentation.activities.MainActivity_GeneratedInjector;
 import com.recepies.foodrecipesq.presentation.activities.RecipeDetailActivity_GeneratedInjector;
 import com.recepies.foodrecipesq.presentation.fragments.FavoriteRecipeFragment_GeneratedInjector;
 import com.recepies.foodrecipesq.presentation.fragments.FoodRecipeFragment_GeneratedInjector;
@@ -187,8 +186,7 @@ public final class RecipeApplication_HiltComponents {
       }
   )
   @ActivityScoped
-  public abstract static class ActivityC implements MainActivity_GeneratedInjector,
-      RecipeDetailActivity_GeneratedInjector,
+  public abstract static class ActivityC implements RecipeDetailActivity_GeneratedInjector,
       ActivityComponent,
       DefaultViewModelFactories.ActivityEntryPoint,
       HiltWrapper_HiltViewModelFactory_ActivityCreatorEntryPoint,

@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import androidx.viewpager2.widget.ViewPager2
+import com.example.obfuscation.obf
 import com.recepies.foodrecipesq.R
 import com.recepies.foodrecipesq.databinding.ActivityRecipeDetailBinding
 import com.recepies.recipecore.domain.model.RecipeDataModel
@@ -25,7 +26,7 @@ class RecipeDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         activityRecipeDetailBinding = DataBindingUtil.setContentView(this,R.layout.activity_recipe_detail)
         readIntent()
-        initUi()
+        if(obf())initUi()
     }
 
     private fun initUi() {
